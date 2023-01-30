@@ -1,0 +1,355 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* main */
+
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #FFFFFF;
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 4px rgba(39, 48, 14, 0.13);
+}
+
+.main-content {
+  padding: 105px 90px 90px;
+  width: 640px;
+}
+
+.main:hover {
+  transition: 700ms;
+  background: #fffef9;
+  box-shadow: 25px 35px 35px 5px rgba(65, 71, 53, 0.534);
+}
+
+/* about */
+
+.about {
+  margin-bottom: 70px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.name-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.about-description {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 40px;
+  width: 500px;
+}
+
+/* Title */
+
+.title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.education-odesa {
+  margin-top: 30px;
+}
+
+/* Projects */
+
+.projects {
+  margin-bottom: 45px;
+}
+
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.projects-item {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.project,
+.project-link {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #004792;
+}
+
+.project-link {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  transition: 500ms;
+  color: #927c00;
+}
+
+.git {
+  margin-right: 10px;
+}
+
+.projects-item {
+  margin-top: 10px;
+}
+
+
+.project-description {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Works */
+.position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 0;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work {
+  margin-top: 80px;
+}
+
+.title-work {
+  margin-bottom: 30px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-top: 0;
+}
+
+.education {
+  margin-top: 75px;
+}
+
+.odesa {
+  font-weight: bold;
+}
+
+.education-state {
+  margin: 0px 0 5px;
+}
+
+/* Sidebar  background-color: #1e2939;  */
+
+.sidebar {
+  background-color: #0C2340;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+  border-radius: 15px;
+}
+
+/* Photo */
+
+.photo {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 25px 0 25px 0;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 20px;
+}
+
+.sidebar-title {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+/* CONTACTS */
+
+.mob-number {
+  margin-top: 27px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.contact-link {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  transition: 500ms;
+}
+
+.contact-link:hover {
+  color: #7DF9FF;
+}
+
+
+.franik {
+  font-size: 21px;
+}
+
+
+
+.links {
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+
+/* GIT HUB LINKEDIN LOGOS */
+
+.li-links {
+  list-style: none;
+  display: inline-block;
+  padding-right: 16px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.logo-git {
+  transition: 300ms;
+  border-radius: 10px;
+  width: 38px;
+}
+
+.logo-git:hover {
+  box-shadow: 0 0 3px 4px hsla(214, 100%, 72%, 0.918);
+  border-radius: 10px;
+  transform: scale(1.15);
+}
+
+.tech-skills-list {
+  color: #FFFFFF;
+  padding: 0;
+  margin-bottom: 44px;
+  line-height: 24px;
+}
+
+.tech-skills-text {
+  margin-left: 10px;
+}
+
+.tech-skills-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.logo-skills {
+
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* List */
+
+.soft-skills {
+  margin-top: 20px;
+}
+
+.soft-skills-list {
+  margin: 5px;
+  padding: 0;
+  color: rgb(156, 196, 11);
+}
+
+.soft-skills-text {
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.soft-skills-item {
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.lang {
+  font-size: 14px;
+  color: rgb(156, 196, 11);
+}
