@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   margin-top: 30px;
-  width: 500px;
+  width: 484px;
 }
 
 /* Title */
@@ -101,7 +101,7 @@ body {
   font-style: normal;
   font-size: 15px;
   line-height: 25px;
-  color: #fb6d3a;
+  color: #8382f9;
   transition: 300ms;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .project-link:hover {
-  color: #5a2400;
+  color: #ffa43d;
 }
 
 .git {
@@ -160,7 +160,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #ffa43d;
   margin: 0;
 }
 
@@ -201,6 +201,15 @@ body {
   font-size: 14px;
   line-height: 24px;
   margin-top: 0;
+}
+
+.period-study {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+  color: #a8a8a8;
 }
 
 .work-list-item::marker {
@@ -252,7 +261,7 @@ body {
 }
 
 .sidebar-title {
-  color: #FFFFFF;
+  color: #e5e6e5;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -286,7 +295,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #e7e7e7;
   display: flex;
   align-items: center;
   margin-left: 15px;
@@ -298,7 +307,7 @@ body {
 }
 
 .contact-link:hover {
-  color: #fb6d3a;
+  color: #ffa43d;
 }
 
 .links {
@@ -322,22 +331,12 @@ body {
   width: 38px;
 }
 
-.logo-git:hover {
-  box-shadow: 0 0 3px 4px hsla(214, 100%, 72%, 0.918);
-  border-radius: 10px;
-  transform: scale(1.15);
-}
-
 .tech-skills-list {
-  color: #FFFFFF;
+  color: #e7e7e7;
   padding: 0;
   font-style: normal;
   margin: 0;
 }
-
-/* .tech-skills-text {
-  margin-left: 10px;
-} */
 
 .logo-skills {
   padding-right: 15px;
