@@ -101,7 +101,7 @@ body {
 }
 
 .project-link {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-weight: 600;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .project-description {
   margin: 0;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   margin-top: 5px;
   padding: 0;
   font-weight: normal;
@@ -137,7 +137,7 @@ body {
 
 .project-skills {
   margin: 0;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   color: #000000;
 }
 
