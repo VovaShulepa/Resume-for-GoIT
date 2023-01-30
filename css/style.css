@@ -50,10 +50,10 @@ body {
 }
 
 .about-description {
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 26px;
   margin-top: 30px;
   width: 500px;
 }
@@ -90,6 +90,11 @@ body {
   line-height: 25px;
 }
 
+.projects-item::marker {
+  color: #a8a8a8;
+}
+
+
 .project,
 .project-link {
   font-weight: normal;
@@ -106,7 +111,6 @@ body {
 }
 
 .project-link:hover {
-
   color: #5a2400;
 }
 
@@ -194,14 +198,21 @@ body {
 .work-list-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 24px;
-  color: #595959;
   margin-top: 0;
+}
+
+.work-list-item::marker {
+  color: #a8a8a8;
 }
 
 .education {
   margin-top: 75px;
+}
+
+.goit {
+  margin-bottom: 22px;
 }
 
 .odesa {
@@ -210,7 +221,7 @@ body {
 
 .education-state {
   margin: 0px 0 5px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Sidebar  background-color: #1e2939;  */
@@ -273,9 +284,8 @@ body {
 
 .contact-link {
   font-style: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
-
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -290,13 +300,6 @@ body {
 .contact-link:hover {
   color: #fb6d3a;
 }
-
-
-.franik {
-  font-size: 21px;
-}
-
-
 
 .links {
   margin-bottom: 15px;
@@ -355,8 +358,7 @@ body {
 }
 
 .soft-skills-text {
-  color: #FFFFFF;
-
+  color: #a8a8a8;
 }
 
 .soft-skills-item {
@@ -364,7 +366,6 @@ body {
   margin-left: 22px;
 }
 
-.lang {
-  font-size: 14px;
-  color: #FFFFFF;
+.soft-skills-item::marker {
+  color: #a8a8a8;
 }
