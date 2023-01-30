@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   background-color: #FFFFFF;
-  width: 1200px;
+  width: 1050px;
   margin: 0 auto;
   border-radius: 25px;
   margin-top: 20px;
@@ -54,7 +54,7 @@ body {
   font-style: normal;
   font-size: 15px;
   line-height: 25px;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 500px;
 }
 
@@ -76,6 +76,7 @@ body {
 
 .projects {
   margin-bottom: 45px;
+  width: 500px;
 }
 
 .projects-list {
@@ -84,7 +85,6 @@ body {
 }
 
 .projects-item {
-  font-weight: bold;
   font-style: normal;
   font-size: 15px;
   line-height: 25px;
@@ -94,9 +94,10 @@ body {
 .project-link {
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
-  color: #004792;
+  color: #fb6d3a;
+  transition: 300ms;
 }
 
 .project-link {
@@ -105,8 +106,8 @@ body {
 }
 
 .project-link:hover {
-  transition: 500ms;
-  color: #927c00;
+
+  color: #5a2400;
 }
 
 .git {
@@ -120,6 +121,8 @@ body {
 
 .project-description {
   margin: 0;
+  margin-left: 10px;
+  margin-top: 5px;
   padding: 0;
   font-weight: normal;
 }
@@ -132,20 +135,26 @@ body {
   color: #000000;
 }
 
+.project-skills {
+  margin: 0;
+  margin-left: 10px;
+  color: #000000;
+}
+
 /* Works */
 .position {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .organization {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   color: #fb6d3a;
   margin: 0;
@@ -154,9 +163,10 @@ body {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
+  margin: 0;
   margin-bottom: 10px;
 }
 
@@ -184,7 +194,7 @@ body {
 .work-list-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   color: #595959;
   margin-top: 0;
@@ -200,6 +210,7 @@ body {
 
 .education-state {
   margin: 0px 0 5px;
+  font-size: 14px;
 }
 
 /* Sidebar  background-color: #1e2939;  */
@@ -210,7 +221,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   width: 320px;
-  border-radius: 15px;
+  border-radius: 25px 0 0 25px;
 }
 
 /* Photo */
@@ -237,6 +248,11 @@ body {
   line-height: 17px;
   margin: 0;
   margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+
+.skills {
   margin-top: 25px;
 }
 
@@ -249,22 +265,30 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  margin: 0;
+  margin-bottom: 10px;
 }
+
+
 
 .contact-link {
   font-style: normal;
   font-size: 17px;
   line-height: 24px;
+
   color: #FFFFFF;
-  text-decoration: none;
   display: flex;
   align-items: center;
   margin-left: 15px;
-  transition: 500ms;
+  transition: 300ms;
+}
+
+.none-underline {
+  text-decoration: none;
 }
 
 .contact-link:hover {
-  color: #7DF9FF;
+  color: #fb6d3a;
 }
 
 
@@ -304,24 +328,15 @@ body {
 .tech-skills-list {
   color: #FFFFFF;
   padding: 0;
-  margin-bottom: 44px;
-  line-height: 24px;
+  font-style: normal;
+  margin: 0;
 }
 
-.tech-skills-text {
+/* .tech-skills-text {
   margin-left: 10px;
-}
-
-.tech-skills-item {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  margin-left: 0;
-}
+} */
 
 .logo-skills {
-
   padding-right: 15px;
   display: flex;
   align-items: center;
@@ -336,20 +351,20 @@ body {
 .soft-skills-list {
   margin: 5px;
   padding: 0;
-  color: rgb(156, 196, 11);
+  color: #FFFFFF;
 }
 
 .soft-skills-text {
   color: #FFFFFF;
-  margin-left: 5px;
+
 }
 
 .soft-skills-item {
-  padding: 4px;
-  margin-left: 10px;
+  padding-bottom: 5px;
+  margin-left: 15px;
 }
 
 .lang {
   font-size: 14px;
-  color: rgb(156, 196, 11);
+  color: #FFFFFF;
 }
