@@ -302,6 +302,10 @@ body {
   transition: 300ms;
 }
 
+.telegram {
+  margin-left: 18px;
+}
+
 .none-underline {
   text-decoration: none;
 }
@@ -354,10 +358,6 @@ body {
   margin: 5px;
   padding: 0;
   color: #FFFFFF;
-}
-
-.soft-skills-text {
-  color: #a8a8a8;
 }
 
 .soft-skills-item {
